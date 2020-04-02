@@ -1,18 +1,8 @@
-@import url(./__exchange/cripto-grid__exchange.css);
-@import url(./__free/cripto-grid__free.css);
-@import url(./__multi/cripto-grid__multi.css);
-@import url(./__text/cripto-grid__text.css);
-@import url(./__tokens/cripto-grid__tokens.css);
-@import url(./__roadmap/cripto-grid__roadmap.css);
-
-
-
-
 .cripto-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 220px 275px 155px 275px 440px;
-    margin: 0 80px;
+    margin: 0 30px;
     grid-gap: 10px;
     grid-template-areas: 
     "text multi"
@@ -21,4 +11,20 @@
     "roadmap tokens"
     "roadmap exchange"
     ;
+}
+
+@media screen and (max-width: 950px) {
+    .cripto-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+
+        grid-template-areas: 
+    "text"
+    "multi"
+    "free"
+    "tokens"
+    "roadmap" 
+    "exchange"
+    ;
+    }
 }

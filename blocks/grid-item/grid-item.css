@@ -1,3 +1,17 @@
 @import url(./__image/grid-item__image.css);
 @import url(./__text/grid-item__text.css);
 @import url(./__title/grid-item__title.css);
+@import url(./_place/_exchange/grid-item_place_exchange.css);
+@import url(./_place/_free/grid-item_place_free.css);
+@import url(./_place/_multi/grid-item_place_multi.css);
+@import url(./_place/_roadmap/grid-item_place_roadmap.css);
+@import url(./_place//_text/grid-item_place_text.css);
+@import url(./_place/_tokens/grid-item_place_tokens.css);
+@import url(./__big-image/grid-item__big-image.css);
+@import url(./__black-text/grid-item__text_color_black.css);
+
+.grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

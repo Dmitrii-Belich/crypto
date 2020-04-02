@@ -1,3 +1,19 @@
 .grid-item__image {
-    margin: 69px;
+    display: block;
+    margin: 69px auto auto;
+}
+
+.grid-item__image:last-child {
+    margin: -26px auto auto;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-item__image {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .grid-item__image:last-child {
+        margin: 0;
+    }
 }

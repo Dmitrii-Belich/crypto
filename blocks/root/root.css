@@ -1,0 +1,8 @@
+.root {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #82899B;
+    background-color: white;
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
