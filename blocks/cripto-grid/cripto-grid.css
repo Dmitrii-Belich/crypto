@@ -1,0 +1,30 @@
+.cripto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 220px 275px 155px 275px 440px;
+    margin: 0 30px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "text multi"
+    "free multi"
+    "free tokens"
+    "roadmap tokens"
+    "roadmap exchange"
+    ;
+}
+
+@media screen and (max-width: 950px) {
+    .cripto-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+
+        grid-template-areas: 
+    "text"
+    "multi"
+    "free"
+    "tokens"
+    "roadmap" 
+    "exchange"
+    ;
+    }
+}
