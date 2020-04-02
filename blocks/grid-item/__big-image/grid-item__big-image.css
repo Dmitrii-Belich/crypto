@@ -3,6 +3,12 @@
     align-self: flex-start;
 }
 
+@media screen and (max-width: 950px) {
+    .grid-item__big-image {
+        margin: 20px auto 20px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .grid-item__big-image {
         width: 100%;
