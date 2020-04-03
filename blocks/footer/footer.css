@@ -1,0 +1,33 @@
+@import url('./__button/footer__button.css');
+@import url('./__column-email/footer__column-email.css');
+@import url('./__column-link/footer__column-link.css');
+@import url('./__column-links/footer__column-links.css');
+@import url('./__column-links/_row/footer__column-links_row.css');
+@import url('./__column/footer__column.css');
+@import url('./__column/_content/footer__column_content_about.css');
+@import url('./__column/_content/footer__column_content_social.css');
+@import url('./__column/_content/footer__column_content_subscribe.css');
+@import url('./__columns/footer__columns.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__drop/footer__drop.css');
+@import url('./__form/footer__form.css');
+@import url('./__social-icon/footer__social-icon.css');
+@import url('./__span-accent/footer__span-accent.css');
+@import url('./__subscribe/footer__subscribe.css');
+@import url('./__subtitle/footer__subtitle.css');
+@import url('./__title/footer__title.css');
+
+
+.footer {
+    /* max-width: 1440px; */
+    /* background: #e1dcdc; */
+    padding: 169px 0 117px;
+  }
+
+
+
+  /*
+
+  @import url('');
+
+  */

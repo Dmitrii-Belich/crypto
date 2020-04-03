@@ -1,0 +1,7 @@
+.footer__drop {
+    margin-top: 10px;
+  }
+
+  .footer__drop:first-of-type {
+    margin-top: 0;
+  }

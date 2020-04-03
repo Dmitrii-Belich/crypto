@@ -1,0 +1,24 @@
+.footer__button {
+    display: block;
+    background: #315EFB;
+    border: 1px solid #315EFB;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 17px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: all linear .3s;
+  }
+
+  .footer__button:hover {
+    opacity: .7;
+  }
+
+  @media screen and (max-width: 424px) {
+      .footer__button {
+        padding: 10px 16px;
+        border-radius: 6px;
+      }
+  }

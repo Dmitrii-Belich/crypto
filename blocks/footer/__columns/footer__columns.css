@@ -1,0 +1,12 @@
+.footer__columns {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  @media screen and (max-width: 950px) {
+      .footer__columns {
+          flex-direction: column;
+          margin-left: 10px;
+      }
+  }

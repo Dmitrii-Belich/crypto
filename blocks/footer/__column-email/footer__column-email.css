@@ -1,0 +1,12 @@
+.footer__column-email {
+    color: #82899B;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all linear .3s;
+  }
+
+  .footer__column-email:hover {
+    opacity: .5;
+  }
