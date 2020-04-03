@@ -1,6 +1,6 @@
 .footer__columns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
 

@@ -4,9 +4,6 @@
 @import url('./__column-links/footer__column-links.css');
 @import url('./__column-links/_row/footer__column-links_row.css');
 @import url('./__column/footer__column.css');
-@import url('./__column/_content/footer__column_content_about.css');
-@import url('./__column/_content/footer__column_content_social.css');
-@import url('./__column/_content/footer__column_content_subscribe.css');
 @import url('./__columns/footer__columns.css');
 @import url('./__copyright/footer__copyright.css');
 @import url('./__drop/footer__drop.css');
@@ -19,15 +16,15 @@
 
 
 .footer {
-    /* max-width: 1440px; */
-    /* background: #e1dcdc; */
+    max-width: 84.58%;
+    margin: 0 auto 0 45px;
     padding: 169px 0 117px;
   }
 
 
-
-  /*
-
-  @import url('');
-
-  */
+  @media screen and (max-width: 443px) {
+      .footer {
+          margin-right: 0;
+          margin-left: 0;
+      }
+  }
