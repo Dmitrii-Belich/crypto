@@ -1,0 +1,12 @@
+.social__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #82899B;
+    transition: all linear .3s;
+  }
+
+  .social__link:hover {
+    opacity: .5;
+  }
