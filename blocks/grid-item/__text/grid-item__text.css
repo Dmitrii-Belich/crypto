@@ -1,0 +1,23 @@
+.grid-item__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24.5px;
+    margin: 45px 110px 40px 40px;
+    display: inline-block;
+}
+
+.grid-item__text:first-child {
+    margin: 45px 40px 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-item__text {
+        margin: 20px 0;
+    }
+
+    .grid-item__text:first-child {
+        margin: 20px 0;
+    }
+
+}

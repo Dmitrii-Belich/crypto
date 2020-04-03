@@ -1,0 +1,18 @@
+.grid-item__big-image {
+    margin: 43px 40px 57px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 950px) {
+    .grid-item__big-image {
+        margin: 20px auto 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-item__big-image {
+        width: 100%;
+        margin: 20px 0 20px;
+    }
+
+}
