@@ -1,0 +1,19 @@
+.create__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #1F2431;
+    width: 100%;
+}
+@media screen and (max-width: 1023px) {
+    .create__title {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 374px) {
+    .create__title {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  } 

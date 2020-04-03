@@ -1,0 +1,10 @@
+.create__image{
+    width: 59.3%;
+}
+
+  @media screen and (max-width: 950px) {
+    .create__image {
+      width: 100%;
+      margin-top: 50px;
+    }
+  } 
