@@ -1,0 +1,10 @@
+.footer__subscribe {
+    display: flex;
+  }
+
+
+  @media screen and (max-width: 424px) {
+      .footer__subscribe {
+          display: block;
+      }
+  }

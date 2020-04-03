@@ -1,0 +1,9 @@
+@media screen and (max-width: 950px) {
+    .footer__column {
+        margin-bottom: 50px;
+    }
+
+    /* .footer__column:first-of-type {
+        margin-top: 0;
+    } */
+}

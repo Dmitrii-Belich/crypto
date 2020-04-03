@@ -1,0 +1,19 @@
+.footer__form {
+    display: block;
+    padding: 10px 16px;
+    border: 1px solid #82899B;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+  }
+
+  .footer__form:focus {
+    background: #ffe;
+    border: 1px solid #315efb;
+  }
+
+  @media screen and (max-width: 424px) {
+      .footer__form {
+          border-radius: 6px;
+          margin: 0 0 5px;
+      }
+  }
