@@ -5,6 +5,7 @@
     height: 40px;
     display: flex;
     text-decoration: none;
+    transition: linear 0.3s;
 }
 
 .create__link:hover {
