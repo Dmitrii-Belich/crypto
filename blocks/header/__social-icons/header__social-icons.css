@@ -1,9 +1,11 @@
 .header__social-icons {
     list-style: none; 
     margin-top: 38px;
+    margin-right: 45px;
     margin-bottom: 0;
     padding: 0; 
     display: grid; 
     grid-template-columns: repeat(6, minmax(0,auto)); 
     grid-column-gap: 18px; 
+    line-height: 1;
 }
