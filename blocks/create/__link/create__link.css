@@ -1,0 +1,20 @@
+.create__link {
+    background: #315EFB;
+    border-radius: 51px;
+    width: 215px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+}
+
+.create__link:hover {
+    opacity: 0.7;
+    transition: linear 0.3s;
+}
+
+@media screen and (max-width: 1023px) {
+    .create__link {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
