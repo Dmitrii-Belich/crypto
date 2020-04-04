@@ -8,6 +8,7 @@
 }
 .create__link:hover{
     opacity: 0.7;
+    transition: linear 0.3s;
 }
 @media screen and (max-width: 1023px) {
     .create__link {
