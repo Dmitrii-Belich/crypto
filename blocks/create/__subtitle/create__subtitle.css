@@ -1,4 +1,4 @@
-.create__subtitle{
+.create__subtitle {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -8,6 +8,7 @@
     margin-bottom: 25px;
     max-width: 251px;
 }
+
 @media screen and (max-width: 1023px) {
     .create__subtitle {
       margin-left: auto;
@@ -15,7 +16,8 @@
       text-align: center;
     }
   }
-  @media screen and (max-width: 374px) {
+
+@media screen and (max-width: 374px) {
     .create__subtitle {
       font-size: 12px;
       line-height: 15px;
