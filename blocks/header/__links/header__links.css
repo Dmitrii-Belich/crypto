@@ -1,0 +1,9 @@
+.header__links {
+    list-style: none; 
+    margin-top: 38px;
+    margin-bottom: 0;
+    padding: 0; 
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(0,auto)); 
+    grid-column-gap: 18px; 
+}
