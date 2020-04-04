@@ -8,3 +8,9 @@
     grid-template-columns: repeat(3, minmax(0,auto)); 
     grid-column-gap: 35px; 
 }
+
+@media (max-width: 450px) {
+    .header__links {
+        display: none;
+    }
+}

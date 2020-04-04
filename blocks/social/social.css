@@ -8,3 +8,13 @@
     display: flex;
     margin: 0;
 }
+
+.social_header {
+    display: inherit;
+}
+
+@media (max-width: 768px) {
+    .social_header {
+        display: none;
+    }
+}
