@@ -1,0 +1,16 @@
+.social_place_header {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.social_place_header {
+    display: inherit;
+}
+
+@media (max-width: 768px) {
+    .social_place_header {
+        display: none;
+    }
+}

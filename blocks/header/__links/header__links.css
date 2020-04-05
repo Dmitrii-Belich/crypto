@@ -9,8 +9,3 @@
     grid-column-gap: 35px; 
 }
 
-@media (max-width: 450px) {
-    .header__links {
-        display: none;
-    }
-}

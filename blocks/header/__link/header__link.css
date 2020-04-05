@@ -10,9 +10,16 @@
     opacity: .5; 
 }
 
-@media (max-width: 760px) { 
+@media (min-width: 390px) and (max-width: 450px){ 
     .header__link {
         font-size: 12px; 
-        line-height: 18px;
+        line-height: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px) { 
+    .header__link {
+        font-size: 10px; 
+        line-height: 16px;
     }
 }
