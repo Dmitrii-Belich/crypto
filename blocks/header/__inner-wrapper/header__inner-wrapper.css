@@ -3,4 +3,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #82899B;
+    transition: all linear .3s;
+}
+
+@media (max-width: 760px) {
+    .header__inner-wrapper  {
+        width: 100%;
+    }
+}
+
+@media (max-width: 521px) {
+    .header__inner-wrapper {
+        grid-column-gap: 8px;
+        grid-row-gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
 }
