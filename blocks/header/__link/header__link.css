@@ -9,15 +9,15 @@
 .header__link:hover { 
     opacity: .5; 
 }
-
+/*
 @media (min-width: 390px) and (max-width: 450px){ 
     .header__link {
         font-size: 12px; 
         line-height: 16px;
     }
 }
-
-@media (min-width: 320px) and (max-width: 390px) { 
+*/
+@media (min-width: 320px) and (max-width: 450px) { 
     .header__link {
         font-size: 10px; 
         line-height: 16px;
