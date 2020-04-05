@@ -1,15 +1,21 @@
 .header__links {
     list-style: none; 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 0 0 35px;
     padding: 0; 
     display: grid; 
     grid-template-columns: repeat(3, minmax(0,auto)); 
     grid-column-gap: 35px; 
 }
 
-@media (min-width: 760px) {
+@media screen and (max-width: 760px) {
     .header__links {
-        margin-left: 35px;
+        grid-column-gap: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__links {
+        margin: 20px 0 0;
     }
 }

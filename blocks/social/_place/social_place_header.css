@@ -1,3 +1,9 @@
 .social_place_header {
+    display: flex;
+}
 
+@media screen and (max-width: 760px) {
+    .social_place_header {
+        display: none;
+    }
 }

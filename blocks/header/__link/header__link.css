@@ -4,22 +4,16 @@
     color: #1F2431; 
     text-decoration: none; 
     list-style: none; 
+    transition: all linear .3s;
 }
 
 .header__link:hover { 
     opacity: .5; 
 }
-/*
-@media (min-width: 390px) and (max-width: 450px){ 
+
+@media screen and (max-width: 450px){ 
     .header__link {
         font-size: 12px; 
-        line-height: 16px;
-    }
-}
-*/
-@media (max-width: 450px) { 
-    .header__link {
-        font-size: 10px; 
         line-height: 16px;
     }
 }
