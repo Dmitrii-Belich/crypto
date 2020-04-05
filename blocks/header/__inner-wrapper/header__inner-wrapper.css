@@ -1,0 +1,7 @@
+.header__inner-wrapper {
+    min-height: 24px;
+    margin: 38px auto 0 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
