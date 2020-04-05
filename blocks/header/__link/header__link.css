@@ -4,10 +4,15 @@
     color: #1F2431; 
     text-decoration: none; 
     list-style: none; 
-  
 }
 
 .header__link:hover { 
     opacity: .5; 
 }
 
+@media (max-width: 760px) { 
+    .header__link {
+        font-size: 12px; 
+        line-height: 18px;
+    }
+}
