@@ -1,0 +1,21 @@
+.header__links {
+    list-style: none; 
+    margin: 0 0 0 35px;
+    padding: 0; 
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(0,auto)); 
+    grid-column-gap: 35px; 
+}
+
+@media screen and (max-width: 760px) {
+    .header__links {
+        grid-column-gap: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__links {
+        margin: 20px 0 0;
+    }
+}
