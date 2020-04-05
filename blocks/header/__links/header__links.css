@@ -2,10 +2,14 @@
     list-style: none; 
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 35px;
     padding: 0; 
     display: grid; 
     grid-template-columns: repeat(3, minmax(0,auto)); 
     grid-column-gap: 35px; 
 }
 
+@media (min-width: 760px) {
+    .header__links {
+        margin-left: 35px;
+    }
+}
