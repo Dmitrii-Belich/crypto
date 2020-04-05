@@ -17,7 +17,7 @@
     }
 }
 */
-@media (min-width: 320px) and (max-width: 450px) { 
+@media (max-width: 450px) { 
     .header__link {
         font-size: 10px; 
         line-height: 16px;
