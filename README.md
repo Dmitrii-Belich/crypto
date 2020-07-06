@@ -1,4 +1,4 @@
-# Каникулярная командная проектная работа: Dappy
+# [Каникулярная командная проектная работа: Dappy](https://dmitrii-belich.github.io/dappy/)
 
 ### какие технологии были использованы
 * grid layout, flexbox, html5/css3
